@@ -1,0 +1,19 @@
+name: timm
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - boto3
+  - pip:
+      - mlflow>=1.0
+      - tensorboardX
+      - radt
+      - migedit
+      - psutil
+      - tensorflow
